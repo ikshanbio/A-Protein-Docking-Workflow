@@ -16,6 +16,12 @@ git clone https://github.com/ikshanbio/A-Docking-Workflow
 cd A-Docking-Workflow
 ```
 
+## Tutorial
+The .ipynb file fetches Streptavidin (UniProt: A0A9W9DMP7) and Biotin (CID: 171548) by default (a well-known example of protein-ligand interaction).
+
+
+A box is set up around the protein structure, within which the lowest energy position of the ligand is searched for by AutoDock Vina. 
+
 ## Dependency Acknowledgements 
 This project uses:
 - [AlphaFold]
