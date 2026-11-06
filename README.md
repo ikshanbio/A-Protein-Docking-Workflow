@@ -43,7 +43,8 @@ This project uses:
 - [PubChem]
 
 ## Citations: 
-Noel M. O’Boyle, Michael Banck, Craig A. James, Chris Morley, Tim Vandermeersch, Geoffrey R. Hutchison Open Babel: An open chemical toolbox. J. Cheminf. 2011, 3, 33.
+1. Cock, P. J. A., Antao, T., Chang, J. T., Chapman, B. A., Cox, C. J., Dalke, A., Friedberg, I., Hamelryck, T., Kauff, F., Wilczynski, B., & de Hoon, M. J. L. (2009). Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 11, 1422–1423. https://doi.org/10.1093/bioinformatics/btp163 
+2. Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., Tunyasuvunakool, K., Bates, R., Žídek, A., Potapenko, A., Bridgland, A., Meyer, C., Kohl, S. A. A., Ballard, A. J., Cowie, A., Romera-Paredes, B., Nikolov, S., Jain, R., Adler, J., … Hassabis, D. (2021). Highly accurate protein structure prediction with AlphaFold. Nature, 7873, 583–589. https://doi.org/10.1038/s41586-021-03819-2
 
 ## License 
 This project is licensed under the GPLv3 License.
