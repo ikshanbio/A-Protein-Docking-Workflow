@@ -17,11 +17,23 @@ cd A-Docking-Workflow
 ```
 
 ## Tutorial
-The .ipynb file fetches Streptavidin (UniProt: A0A9W9DMP7) and Biotin (CID: 171548) by default (a well-known example of protein-ligand interaction).
-
-
-A box is set up around the protein structure, within which the lowest energy position of the ligand is searched for by AutoDock Vina. 
-
+The .ipynb file fetches Streptavidin (UniProt: A0A9W9DMP7) and Biotin (CID: 171548) by default (a well-known example of protein-ligand interaction).\
+\
+A box is set up around the protein structure, within which the lowest energy position of the ligand is searched for by AutoDock Vina.\
+The following is expected for the default settings - 
+```
+Docking box is centred at :- [-0.862361   1.3171452 -1.2735325]
+Size of the docking box is :- [49.49  44.966 59.579]
+```
+Docking is run by Vina to produced ligand positions. 
+The top ligand position for the default settings - 
+```
+[[-5.331 -7.046 -0.652  1.714 -0.652]]
+```
+The ligand positions are saved as a .pdb file, which can be downloaded and viewed for any further analysis or viewing elsewhere.\
+\
+A default viewer shows the lowest energy value ligand position bound to the protein. Image of the default docked structure - \
+<img width="332" height="238" alt="Image" src="https://github.com/user-attachments/assets/3151b9a4-6b76-4cc2-8ee3-ff892b8f4e8c" />
 ## Dependency Acknowledgements 
 This project uses:
 - [AlphaFold]
