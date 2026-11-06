@@ -12,8 +12,8 @@ Developed by Ikshan Ganpathi, with affiliation, at the time of development, with
 
 ## Installation
 ```bash
-git clone https://github.com/ikshanbio/A-Docking-Workflow
-cd A-Docking-Workflow
+git clone https://github.com/ikshanbio/A-Protein-Docking-Workflow
+cd A-Protein-Docking-Workflow
 ```
 
 ## Tutorial
