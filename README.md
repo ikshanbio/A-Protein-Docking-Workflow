@@ -30,21 +30,29 @@ The top ligand position for the default settings -
 ```
 [[-5.331 -7.046 -0.652  1.714 -0.652]]
 ```
+The obtained value is much lower than the experimentally-determined value of Streptavidin-Biotin interaction (~ -20 kcal mol\^{-1}), as docking alone doesn't account for any entropic contributions, or enthalpic contributions from the surrounding buffer.
+Consider carrying out some form of MD simulations for greater accuracy.\
 The ligand positions are saved as a .pdb file, which can be downloaded and viewed for any further analysis or viewing elsewhere.\
 \
 A default viewer shows the lowest energy value ligand position bound to the protein. Image of the default docked structure - \
 <img width="332" height="238" alt="Image" src="https://github.com/user-attachments/assets/3151b9a4-6b76-4cc2-8ee3-ff892b8f4e8c" />
 ## Dependency Acknowledgements 
-This project uses:
-- [AlphaFold]
-- [AutoDock Vina]
+### This project uses:
 - [Biopython]
 - [OpenBabel]
+- [AutoDock Vina]
+- [py3Dmol]
+### This project fetches data from:
+- [AlphaFold]
 - [PubChem]
 
 ## Citations: 
-1. Cock, P. J. A., Antao, T., Chang, J. T., Chapman, B. A., Cox, C. J., Dalke, A., Friedberg, I., Hamelryck, T., Kauff, F., Wilczynski, B., & de Hoon, M. J. L. (2009). Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 11, 1422–1423. https://doi.org/10.1093/bioinformatics/btp163 
-2. Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., Tunyasuvunakool, K., Bates, R., Žídek, A., Potapenko, A., Bridgland, A., Meyer, C., Kohl, S. A. A., Ballard, A. J., Cowie, A., Romera-Paredes, B., Nikolov, S., Jain, R., Adler, J., … Hassabis, D. (2021). Highly accurate protein structure prediction with AlphaFold. Nature, 7873, 583–589. https://doi.org/10.1038/s41586-021-03819-2
+1. (Biopython) Cock, P. J. A., Antao, T., Chang, J. T., Chapman, B. A., Cox, C. J., Dalke, A., Friedberg, I., Hamelryck, T., Kauff, F., Wilczynski, B., & de Hoon, M. J. L. (2009). Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 11, 1422–1423. https://doi.org/10.1093/bioinformatics/btp163 
+2. (AlphaFold) Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., Tunyasuvunakool, K., Bates, R., Žídek, A., Potapenko, A., Bridgland, A., Meyer, C., Kohl, S. A. A., Ballard, A. J., Cowie, A., Romera-Paredes, B., Nikolov, S., Jain, R., Adler, J., … Hassabis, D. (2021). Highly accurate protein structure prediction with AlphaFold. Nature, 7873, 583–589. https://doi.org/10.1038/s41586-021-03819-2
+3.  (PubChem) Kim, S., Chen, J., Cheng, T., Gindulyte, A., He, J., He, S., Li, Q., Shoemaker, B. A., Thiessen, P. A., Yu, B., Zaslavsky, L., Zhang, J., & Bolton, E. E. (2025). PubChem 2025 update. Nucleic Acids Res., 53(D1), D1516–D1525. https://doi.org/10.1093/nar/gkae1059
+4.  (OpenBabel) O’Boyle, N. M., Banck, M., James, C. A., Morley, C., Vandermeersch, T., & Hutchison, G. R. (2011). Open Babel: An open chemical toolbox. Journal of Cheminformatics, 1. https://doi.org/10.1186/1758-2946-3-33
+5. (3Dmol) Rego, N., & Koes, D. (2014). 3Dmol.js: molecular visualization with WebGL. Bioinformatics, 8, 1322–1324. https://doi.org/10.1093/bioinformatics/btu829 
+6. (AutoDock Vina) Trott, O., & Olson, A. J. (2009). AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. Journal of Computational Chemistry, 2, 455–461. https://doi.org/10.1002/jcc.21334
 
 ## License 
 This project is licensed under the GPLv3 License.
