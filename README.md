@@ -30,7 +30,7 @@ The top ligand position for the default settings -
 ```
 [[-5.331 -7.046 -0.652  1.714 -0.652]]
 ```
-The obtained value is much lower than the experimentally-determined value of Streptavidin-Biotin interaction (~ -20 kcal mol\^{-1}), as docking alone doesn't account for any entropic contributions, or enthalpic contributions from the surrounding buffer.
+The obtained value is much lower than the experimentally-determined value of Streptavidin-Biotin interaction (~ -20 kcal mol<sup>-1</sup>), as docking alone doesn't account for any entropic contributions, or enthalpic contributions from the surrounding buffer.
 Consider carrying out some form of MD simulations for greater accuracy.\
 The ligand positions are saved as a .pdb file, which can be downloaded and viewed for any further analysis or viewing elsewhere.\
 \
