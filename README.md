@@ -48,16 +48,16 @@ PDB Source: [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/e
 - [Meeko](https://github.com/forlilab/Meeko) (now distributed under L-GPL v2.1)
 - [Vina](https://github.com/forlilab/AutoDock-Vina) (distributed under Apache 2.0)
 - [RDKit](https://github.com/rdkit/rdkit) (distributed under BSD-3-Clause)
-- [py3Dmol] (distributed under MIT)
+- [py3Dmol](https://pypi.org/project/py3Dmol/) (distributed under MIT)
 ### This project fetches data from:
-- [AlphaFold]  - Protein structure
-- [PubChem] - Ligand structure
+- [AlphaFold](https://alphafold.ebi.ac.uk/)  - Protein structure
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - Ligand structure
 
 ## Citations: 
 1. (Biopython) Cock, P. J. A., Antao, T., Chang, J. T., Chapman, B. A., Cox, C. J., Dalke, A., Friedberg, I., Hamelryck, T., Kauff, F., Wilczynski, B., & de Hoon, M. J. L. (2009). Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 11, 1422–1423. https://doi.org/10.1093/bioinformatics/btp163 
 2. (AlphaFold) Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., Tunyasuvunakool, K., Bates, R., Žídek, A., Potapenko, A., Bridgland, A., Meyer, C., Kohl, S. A. A., Ballard, A. J., Cowie, A., Romera-Paredes, B., Nikolov, S., Jain, R., Adler, J., … Hassabis, D. (2021). Highly accurate protein structure prediction with AlphaFold. Nature, 7873, 583–589. https://doi.org/10.1038/s41586-021-03819-2
 3.  (PubChem) Kim, S., Chen, J., Cheng, T., Gindulyte, A., He, J., He, S., Li, Q., Shoemaker, B. A., Thiessen, P. A., Yu, B., Zaslavsky, L., Zhang, J., & Bolton, E. E. (2025). PubChem 2025 update. Nucleic Acids Res., 53(D1), D1516–D1525. https://doi.org/10.1093/nar/gkae1059
-4.  (RDKit) Landrum, G., Tosco, P., Rodriguez, R., Kelley, B., Cosgrove, D., Vianello, R., sriniker, Gedeck, P., Jones, G., Nealschneider, D., Kawashima, E., NadineSchneider, tadhurst-cdd, Maeder, N., Boyd, K., Dalke, A., Pechersky, Y., Swain, M., Cole, B., … Buchthal, K. (2026, November 5). rdkit/rdkit: 2026_09_2 (Q3 2026) Release | Zenodo. Zenodo; Zenodo. https://doi.org/10.5281/zenodo.591637 
+4.  (RDKit) Landrum, G., Tosco, P., Rodriguez, R., Kelley, B., Cosgrove, D., Vianello, R., sriniker, Gedeck, P., Jones, G., Nealschneider, D., Kawashima, E., NadineSchneider, tadhurst-cdd, Maeder, N., Boyd, K., Dalke, A., Pechersky, Y., Swain, M., Cole, B., … Buchthal, K. (2026, November 5). rdkit/rdkit: 2026_09_2 (Q3 2026) Release | Zenodo. Zenodo; Zenodo. https://doi.org/10.5281/zenodo.591637
 5. (3Dmol) Rego, N., & Koes, D. (2014). 3Dmol.js: molecular visualization with WebGL. Bioinformatics, 8, 1322–1324. https://doi.org/10.1093/bioinformatics/btu829
 6. (Meeko) Santos-Martins, D., He, Y., Eberhardt, J., Sharma, P., Bruciaferri, N., Holcomb, M., Llanos, M. A., Hansel-Harris, A., Barkdull, A. P., Tillack, A. F., Bianco, G., Paulsen, M.-L., Mato, J., Taneja, I., & Forli, S. (2025). Meeko: Molecule Parametrization and Software Interoperability for Docking and Beyond. Journal of Chemical Information and Modeling, 24, 13045–13050. https://doi.org/10.1021/acs.jcim.5c02271 
 7. (Vina) Trott, O., & Olson, A. J. (2009). AutoDock Vina: Improving the speed and accuracy of docking with a new scoring function, efficient optimization, and multithreading. Journal of Computational Chemistry, 2, 455–461. https://doi.org/10.1002/jcc.21334
