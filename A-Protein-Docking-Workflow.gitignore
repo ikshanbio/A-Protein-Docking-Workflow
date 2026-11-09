@@ -1,0 +1,66 @@
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+client_secret*.json
+token.json
+secrets.*
+.aws/
+.ssh/
+.config/
+
+# Imported data and outputs
+*.pdb
+*.cif
+*.sdf
+*.pdbqt
+*.json
+*.hdf5
+*.czi
+*.nd2
+*.lif
+*.lsm
+*.png
+*.jpg
+*.jpeg
+*.txt
+*.avi
+*.mp4
+*.npy
+*.npz
+*.csv
+*.xlsx
+*.pkl
+*.pickle
+*_seg.npy
+
+# Archives and logs
+*.zip
+*.tar
+*.gz
+*.log
+wandb/
+
+# Colab / Drive artifacts
+sample_data/
+drive/
+.gdrive/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
