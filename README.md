@@ -44,10 +44,10 @@ PDB Source: [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/e
 
 ## Dependency Acknowledgements 
 ### This project uses:
-- [Biopython] (distributed under BSD-3-Clause)
-- [Meeko] (now distributed under L-GPL v2.1)
-- [Vina] (distributed under Apache 2.0)
-- [RDKit] (distributed under BSD-3-Clause)
+- [Biopython](https://github.com/biopython/biopython) (distributed under BSD-3-Clause)
+- [Meeko](https://github.com/forlilab/Meeko) (now distributed under L-GPL v2.1)
+- [Vina](https://github.com/forlilab/AutoDock-Vina) (distributed under Apache 2.0)
+- [RDKit](https://github.com/rdkit/rdkit) (distributed under BSD-3-Clause)
 - [py3Dmol] (distributed under MIT)
 ### This project fetches data from:
 - [AlphaFold]  - Protein structure
